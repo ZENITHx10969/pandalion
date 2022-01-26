@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 20px 50px;
+  background: black;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+#hero{
+
+}
+#hero figure img{
+  width: 100%;
+}
+#about{
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+#about h2{
+  margin-bottom: 40px;
+}
+#menu{
+  background: black;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+#menu h2{
+  margin-bottom: 40px;
+}
+#menu table{
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: left;
+}
+#menu table td{
+  padding: 10px;
+}
+#access{
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+#access h2{
+  margin-bottom: 40px;
+}
+#access iframe{
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  padding: 30px;
+}
+#contact{
+  background: black;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  background-size: 100%;
+}
+#contact h2{
+  margin-bottom: 40px;
+}
+#contact form label{
+  display: block;
+}
+#contact form input{
+  width: 100%;
+  max-width: 500px;
+  padding: 5px;
+}
+#contact form textarea{
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+}
+#contact form input[type="submit"]{
+  width: 300px;
+  background: #eee;
+}
+aside{
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+aside h2{
+  margin-bottom: 40px;
+}
+aside figure{
+  padding: 20px;
+}
+aside figure img{
+  width: 200px;
+}
+aside .button{
+  text-align: center;
+  padding: 20px 100px;
+  background: black;
+  display: inline-block;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+}
+aside .button:hover{
+  opacity: 0.8;
+}
+footer{
+  padding: 10px;
+  text-align: center;
+  background: black;
+  color: white;
+}
